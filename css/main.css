@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+/* General Styles */
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15171A;
+    opacity: 0.8;
+    padding: 15px 20px;
+    color: white;
+   font-family:Arial, Helvetica, sans-serif ;
+font-size: 16px;
+}
+
+
+.nav-links {
+  list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: #0073e6;
+    border-radius: 5px;
+}
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-active {
+        display: flex;
+    }
+    .first-page {
+        background-color: #e0eaf3;
+        background-image: url(/images/banner3.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        width: 100%;
+        height: 450px;
+    }
+    #top-h1 {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #span {
+        color: #9149D5;
+    }
+    .second-page {
+      
+      background-color: #e0eaf3;
+        padding-top: 10px;
+        height: 1140px;
+    }
+    
+    .services-head{
+        padding-top: 20px;
+       
+    }
+    #service-p {
+        text-align: center;
+        font-size: 28px;
+        
+    }
+    #service-h1{
+        
+        color:  rgb(147, 51, 234);
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .ser-images{
+            font-size: 30px;
+            margin-bottom: 10px;
+        
+    }
+
+    .card-container {
+        
+        display: block;
+        gap: 20px;
+        padding: 20px;
+        max-width: 800px;
+        
+    }
+    
+    .card {
+       
+        
+        height:350px;
+        
+        border-radius: 10px;
+        margin:auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        padding: 10px 10px;
+        transition: 0.3s ease-in-out;
+    }
+    .one {
+        height: 240px;
+      
+    }
+    .two {
+        height: 250px;
+       
+    }
+    .three{
+        height: 240px;
+    }
+    .four {
+        height: 280px;
+    }
+
+    .one , .two , .three {
+        background-color: #16171A;
+        margin-bottom: 10px;
+    }
+    .card  h3 {
+font-size: 30px;
+color: white;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .card h3 {
+        font-size: 20px;
+        
+    }
+    
+    .card p {
+        padding-top: 1%;
+        font-size: 14px;
+        color: rgb(147, 162, 184);
+    }
+    .third-page {
+    padding-top: 20px;
+    height: 600px;
+    background-color:red;
+    opacity: 0.7;
+}
+.founder {
+    padding-top: 10px;
+}
+   #f {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 18px;
+   }
+
+    #about-3{
+        
+        color:  rgb(147, 51, 234);
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .About p {
+        font-size: 12px;
+margin-left: 5px;
+        color: white;
+    }
+
+  
+    .partiners {
+        padding-top: 20px;
+        text-align: center;
+       padding: 15px 20px;
+        background-color: #210D02;
+        height: 150px;
+
+    }
+    .partiners h1{
+        color: white;
+        font-size: 20px;
+    }
+    .partiner-images {
+        display: flex;
+    }
+   
+    footer {
+        padding-top: 20px;
+        background-color: steelblue;
+        color: black;
+        text-align: center;
+    }
+    footer h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
