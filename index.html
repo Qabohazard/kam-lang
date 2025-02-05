@@ -74,7 +74,7 @@
          <div class="About">   
             <h3 id="about-3"> About me </h3>
          
-        <p>i have 7(seven) years experience in Afar language translation, transcribing, proofreading and creating contents for media. i have also better efficiency of speaking, writing and reading English and Amharic language and Native for Afar af. I made significant steps in translating Afar language into English and Amharic vice versa. I have excellent ability of viewing special points in translating complext words.</p>
+        <p>i have seven years experience in Afar language translation, transcribing, proofreading and creating contents for media. i have also better efficiency of speaking, writing and reading English and Amharic language and Native for Afar af. I made significant steps in translating Afar language into English and Amharic vice versa. I have excellent ability of viewing special points in translating complext words.</p>
         </div>
         </div>
     </section>
@@ -90,26 +90,29 @@
         </div>
     </section>
     <section>
-<div>
-    <address> semara , Afar region , Ethiopia </address>
-    
-    <div>
-       <form action="">
-        <label for="fname"> First name :</label> <br>
-        <input type="text" id="fname" placeholder="first name"> <br>
-        <label for="lname"> Last name : </label><br>
-        <input type ="text" id="lname" placeholder="last name"> <br>
-        <label for="phone"> phone number : </label><br>
-        <input type ="tel" id="phone" placeholder="ex 09 ..."> <br>
-        <label for="mail"> Gmail :</label><br>
-        <input type="email" id="mail" placeholder="your's@gmail.com"> <br>
-        
-        <textarea name="" id="msg" rows="4" cols="40" placeholder="tell me your idea">  
-        </textarea>
-        <button type="submit"> submit </button>
-       </form>
-    </div>
-</div>
+        <div class="form-container">
+            <h2>Contact me</h2>
+            <form id="contactForm" action="mailto:Qeysabaxa11@gmail.com">
+              <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+            <p id="message"></p>
+          </div>
     </section>
 
 

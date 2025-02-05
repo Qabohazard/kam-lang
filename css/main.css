@@ -9,7 +9,10 @@ section {
 }
 
 /* General Styles */
-
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
 
 /* Navbar */
 .navbar {
@@ -169,12 +172,14 @@ color: white;
     }
     .third-page {
     padding-top: 20px;
-    height: 600px;
-    background-color:red;
+    height: 650px;
+    
     opacity: 0.7;
 }
 .founder {
     padding-top: 10px;
+    background-color:#e0eaf3 ;
+    
 }
    #f {
     text-align: center;
@@ -191,9 +196,9 @@ color: white;
         margin-left: 18px;
     }
     .About p {
-        font-size: 12px;
+        font-size: 14px;
 margin-left: 5px;
-        color: white;
+color:#000000;
     }
 
   
@@ -212,11 +217,64 @@ margin-left: 5px;
     .partiner-images {
         display: flex;
     }
+
+
+
+    .form-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+      }
+      
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .form-group {
+        margin-bottom: 15px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #218838;
+      }
+      
+      #message {
+        margin-top: 15px;
+        text-align: center;
+        color: #28a745;
+      }
    
     footer {
         padding-top: 20px;
-        background-color: steelblue;
-        color: black;
+        background-color: #242A31;
+        color: white;
         text-align: center;
     }
     footer h1 {
